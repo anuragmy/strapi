@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_mens_winter_collectoin_w_inter_collections",
+  "info": {
+    "displayName": "WInter Collection"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "price": {
+      "type": "decimal",
+      "required": true
+    }
+  }
+}
